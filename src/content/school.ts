@@ -2,7 +2,7 @@
  * Website content, loaded from the JSON files in /content.
  *
  * Edit content in the dashboard (/admin) or directly in /content/*.json.
- * Only design-related text (navigation, the four pillars, the student team)
+ * Only design-related text (navigation, the four pillars)
  * stays in this file.
  */
 import aboutJson from "../../content/about.json";
@@ -12,7 +12,8 @@ import eventsJson from "../../content/events.json";
 import programsJson from "../../content/programs.json";
 import settingsJson from "../../content/settings.json";
 import staffJson from "../../content/staff.json";
-import type { About, EventItem, GalleryItem as GalleryRow, NewsItem, Programs, Settings, StaffItem } from "@/lib/cms/schema";
+import teamJson from "../../content/team.json";
+import type { About, EventItem, GalleryItem as GalleryRow, NewsItem, Programs, Settings, StaffItem, Team } from "@/lib/cms/schema";
 
 const settings = settingsJson as Settings;
 const about = aboutJson as About;
@@ -109,11 +110,5 @@ export const pillars = [
   },
 ];
 
-/** The student team who built the first version of this website. */
-export const studentDevelopers = [
-  "Armand", "Arsène", "Blaise", "Bonheur", "Darcy", "Idesbard", "Igikwiye",
-  "Jay B", "Lavigne", "Mike", "Patient", "Rwakazina", "Xavier",
-].map((n) => ({
-  name: n,
-  image: `/img/students/${n.normalize("NFD").toLowerCase().replace(/[^a-z]/g, "")}.jpg`,
-}));
+/** The student developers page (team, the team leader's word, the mentor). */
+export const team = teamJson as Team;
