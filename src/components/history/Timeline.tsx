@@ -65,7 +65,7 @@ export function Timeline() {
   return (
     <div>
       {/* Archive search */}
-      <div className="sticky top-24 z-20 mx-auto mb-20 max-w-xl">
+      <div className="relative z-20 mx-auto mb-20 max-w-xl md:sticky md:top-24">
         <label className="flex items-center gap-3 rounded-full border border-ink/15 bg-ivory/85 py-2 pr-2 pl-6 shadow-[0_20px_50px_-25px_rgba(7,20,43,0.5)] backdrop-blur-xl">
           <span className="eyebrow shrink-0 text-brick">Search</span>
           <input

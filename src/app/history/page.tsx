@@ -9,7 +9,7 @@ import { ImigongoField } from "@/components/Imigongo";
 export const metadata: Metadata = {
   title: "History",
   description:
-    "From 1912 to today: the history of Saint Léon Minor Seminary of Kabgayi, cradle of the priesthood in Rwanda.",
+    "From 1912 to today: the history of Petit Séminaire Saint Léon Kabgayi, cradle of the priesthood in Rwanda.",
 };
 
 export default function HistoryPage() {
@@ -32,7 +32,7 @@ export default function HistoryPage() {
             <span className="lozenge text-brick" />
             <span className="eyebrow text-brick">The founders</span>
           </Reveal>
-          <div className="mt-12 grid gap-16 md:grid-cols-2">
+          <div className="mt-12 grid gap-16 lg:grid-cols-2">
             {[
               {
                 img: "/img/history/hirth.jpg",
@@ -46,14 +46,14 @@ export default function HistoryPage() {
                 name: "Mgr Aloys Bigirumwami",
                 dates: "1904 – 1986",
                 role: "Seminarian Nº 81 · First Rwandan bishop",
-                text: "Entered Saint Léon in 1914, ordained in 1921 as the tenth Rwandan priest, and consecrated in 1952 as the first Rwandan bishop: the fruit the founders hoped for.",
+                text: "Entered Petit Séminaire Saint Léon Kabgayi in 1914, ordained in 1921 as the tenth Rwandan priest, and consecrated in 1952 as the first Rwandan bishop: the fruit the founders hoped for.",
               },
             ].map((f, i) => (
               <Reveal key={f.name} delay={i * 150} className="grid grid-cols-[120px_1fr] gap-6 md:grid-cols-[180px_1fr] md:gap-8">
                 <div className="archival arch-sm relative aspect-[3/4] overflow-hidden border border-ink/10">
                   <Image src={f.img} alt={f.name} fill sizes="180px" className="object-cover" />
                 </div>
-                <div>
+                <div className="min-w-0">
                   <p className="eyebrow text-brick">{f.role}</p>
                   <h3 className="display mt-3 text-3xl text-ink md:text-4xl">{f.name}</h3>
                   <p className="font-mono text-sm text-muted">{f.dates}</p>

@@ -7,7 +7,7 @@ import { studentDevelopers } from "@/content/school";
 
 export const metadata: Metadata = {
   title: "Built by students",
-  description: "This website began as a project by students of Saint Léon Kabgayi. Meet the team and see how their design grew.",
+  description: "This website began as a project by students of Petit Séminaire Saint Léon Kabgayi. Meet the team and see how their design grew.",
 };
 
 const wireframes = [
@@ -54,7 +54,7 @@ export default function StudentsPage() {
           />
           <Reveal delay={300} className="mt-8 max-w-2xl text-lg text-ivory/70">
             <p>
-              A team of Saint Léon seminarians designed the first version: wireframes, colours, the history text, and six
+              A team of seminarians from Petit Séminaire Saint Léon Kabgayi designed the first version: wireframes, colours, the history text, and six
               hand-coded pages. This site keeps their ideas and shows how far they can be taken. Every great product
               starts as a first draft.
             </p>

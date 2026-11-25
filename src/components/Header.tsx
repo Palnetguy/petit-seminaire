@@ -52,9 +52,9 @@ export function Header() {
         >
           <Link href="/" className="group flex items-center gap-3 pl-1" aria-label="Home">
             <Crest className="h-10 w-auto transition-transform duration-700 group-hover:-rotate-6" />
-            <span className="hidden leading-tight text-ivory sm:block">
-              <span className="block font-display text-[15px] tracking-tight">Saint Léon</span>
-              <span className="eyebrow block text-[12px]! text-gold">Kabgayi, 1912</span>
+            <span className="block leading-[1.1] text-ivory">
+              <span className="eyebrow block text-[11px]! text-gold sm:text-[12px]!">Petit Séminaire</span>
+              <span className="block font-display text-[14px] tracking-tight sm:text-[15px]">Saint Léon Kabgayi</span>
             </span>
           </Link>
 

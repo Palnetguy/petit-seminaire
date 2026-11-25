@@ -30,7 +30,7 @@ export default function Home() {
           <div className="mt-10 grid gap-10 md:grid-cols-12">
             <Reveal delay={200} className="text-lg leading-relaxed text-charcoal/75 md:col-span-5 md:col-start-7">
               <p>
-                Founded by Bishop Jean-Joseph Hirth of the Missionaries of Africa, Saint Léon opened its doors at
+                Founded by Bishop Jean-Joseph Hirth of the Missionaries of Africa, Petit Séminaire Saint Léon Kabgayi opened its doors at
                 Kabgayi on 4 October 1913. Until 1953 it was the only minor seminary in the country. Every
                 other seminary in Rwanda grew from its model.
               </p>
@@ -74,7 +74,7 @@ export default function Home() {
             </div>
             <Reveal delay={200} className="text-charcoal/70 md:col-span-4 md:col-start-9">
               <p>
-                A seminary forms the whole person. At Saint Léon, prayer, study, character and service are not
+                A seminary forms the whole person. At Petit Séminaire Saint Léon Kabgayi, prayer, study, character and service are not
                 separate subjects. They are one way of life.
               </p>
             </Reveal>
@@ -163,7 +163,7 @@ export default function Home() {
                 <span className="lozenge text-brick" />
                 <span className="eyebrow text-muted">Amakuru · Chronicle</span>
               </Reveal>
-              <MaskLines className="display mt-6 text-[clamp(2.6rem,5.6vw,5rem)] text-ink" lines={["Life at Saint Léon"]} />
+              <MaskLines className="display mt-6 text-[clamp(2.6rem,5.6vw,5rem)] text-ink" lines={["Life at Petit Séminaire", <em key="k" className="text-brick">Saint Léon Kabgayi</em>]} />
             </div>
             <Link href="/gallery" className="link-gold font-semibold text-brick">View the gallery →</Link>
           </div>

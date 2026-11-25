@@ -18,7 +18,7 @@ const interTight = Inter_Tight({ subsets: ["latin"], variable: "--font-inter-tig
 export const metadata: Metadata = {
   title: {
     default: `${school.name} · Since 1912`,
-    template: `%s · Saint Léon Kabgayi`,
+    template: `%s · Petit Séminaire Saint Léon Kabgayi`,
   },
   description:
     "Petit Séminaire Saint Léon Kabgayi, founded in 1912 in Muhanga: the cradle of the priesthood in Rwanda and one of the country's oldest secondary schools. Turerera u Rwanda rwejo.",
@@ -38,8 +38,8 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${interTight.variable}`}>
-      <body>
+    <html lang="en" className={`${fraunces.variable} ${interTight.variable}`} suppressHydrationWarning>
+      <body suppressHydrationWarning>
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[200] focus:rounded-full focus:bg-gold focus:px-4 focus:py-2 focus:text-ink">
           Skip to content
         </a>

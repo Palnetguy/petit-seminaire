@@ -90,7 +90,7 @@ export default function AboutPage() {
       {/* Why choose us */}
       <section className="bg-ivory">
         <div className="mx-auto max-w-[1320px] px-5 py-28 md:px-10 md:py-36">
-          <MaskLines className="display text-[clamp(2.4rem,5vw,4.6rem)] text-ink" lines={["Why families", <em key="c" className="text-brick">choose Saint Léon</em>]} />
+          <MaskLines className="display text-[clamp(2.4rem,5vw,4.6rem)] text-ink" lines={["Why families choose", <em key="c" className="text-brick">Petit Séminaire</em>, <em key="d" className="text-brick">Saint Léon Kabgayi</em>]} />
           <div className="mt-16 divide-y divide-ink/15 border-y border-ink/15">
             {whyUs.map((w, i) => (
               <Reveal key={w.title} delay={i * 70} className="group grid items-baseline gap-4 py-8 md:grid-cols-12">

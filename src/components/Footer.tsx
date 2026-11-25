@@ -9,8 +9,8 @@ export function Footer() {
     <footer className="relative overflow-hidden bg-ink text-ivory">
       <ImigongoBand variant="gold" height={22} />
       <div className="mx-auto max-w-[1320px] px-5 pt-20 pb-10 md:px-10">
-        <div className="grid gap-14 md:grid-cols-12">
-          <div className="md:col-span-6">
+        <div className="grid gap-14 lg:grid-cols-12">
+          <div className="lg:col-span-6">
             <p className="eyebrow text-gold">Intego yacu · Our motto</p>
             <p className="display mt-5 text-[clamp(2.6rem,7vw,6.5rem)] text-ivory">
               Turerera
@@ -20,7 +20,7 @@ export function Footer() {
             <p className="mt-6 max-w-md text-ivory/60">{school.mottoLongEn}</p>
           </div>
 
-          <div className="grid grid-cols-2 gap-10 md:col-span-6 md:grid-cols-3">
+          <div className="grid grid-cols-2 gap-10 sm:grid-cols-3 lg:col-span-6">
             <div>
               <p className="eyebrow mb-5 text-ivory/40">Explore</p>
               <ul className="space-y-2.5">
@@ -41,8 +41,9 @@ export function Footer() {
             <div>
               <p className="eyebrow mb-5 text-ivory/40">Visit</p>
               <address className="space-y-1 not-italic text-ivory/80">
-                <p>Saint Léon Kabgayi</p>
-                <p>Nyamabuye, Muhanga</p>
+                <p>Petit Séminaire Saint Léon Kabgayi</p>
+                <p>Kabgayi, Nyamabuye Sector</p>
+                <p>Muhanga District</p>
                 <p>{school.province}</p>
               </address>
               <a
@@ -54,9 +55,9 @@ export function Footer() {
                 Directions ↗
               </a>
             </div>
-            <div className="col-span-2 md:col-span-1">
+            <div className="col-span-2 sm:col-span-1">
               <p className="eyebrow mb-5 text-ivory/40">Contact</p>
-              <a href={`tel:${school.phone.replace(/\s/g, "")}`} className="link-gold block text-ivory/80">
+              <a href={`tel:${school.phone.replace(/\s/g, "")}`} className="link-gold block whitespace-nowrap text-ivory/80">
                 {school.phone}
               </a>
               <a href={`mailto:${school.email}`} className="link-gold mt-1 block text-ivory/80">
@@ -75,8 +76,10 @@ export function Footer() {
         {/* Big wordmark */}
         <div className="relative mt-24 flex items-end gap-6 border-t border-white/10 pt-10">
           <Crest className="h-24 w-auto shrink-0 md:h-32" />
-          <p className="display select-none text-[clamp(3rem,13vw,13rem)] leading-[0.8] text-ivory/[0.06]">
-            Saint Léon
+          <p className="display select-none text-[clamp(2.2rem,7.4vw,7.6rem)] leading-[0.86] text-ivory/[0.07]">
+            Petit Séminaire
+            <br />
+            Saint Léon Kabgayi
           </p>
         </div>
 

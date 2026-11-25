@@ -11,7 +11,7 @@ const captions = [
   {
     k: "1912",
     title: "Seventeen boys.",
-    text: "On 22 December 1912, the first seventeen seminarians are entered in the register of Saint Léon.",
+    text: "On 22 December 1912, the first seventeen seminarians are entered in the register of Petit Séminaire Saint Léon Kabgayi.",
   },
   {
     k: "Nº 5,154",

@@ -5,7 +5,7 @@ import { GalleryGrid } from "@/components/gallery/GalleryGrid";
 
 export const metadata: Metadata = {
   title: "Gallery",
-  description: "Faith, study, sport and celebration: photographs of life at Saint Léon Kabgayi.",
+  description: "Faith, study, sport and celebration: photographs of life at Petit Séminaire Saint Léon Kabgayi.",
 };
 
 export default function GalleryPage() {

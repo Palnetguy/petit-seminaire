@@ -49,7 +49,7 @@ export const milestones: Milestone[] = [
     date: "4 October",
     place: "Kabgayi",
     title: "Home at Kabgayi",
-    text: "The seminary moves to Kabgayi, the date counted as the official opening of St. Léon Minor Seminary of Kabgayi. A second intake of 40 seminarians arrives on 9 and 10 October.",
+    text: "The seminary moves to Kabgayi, the date counted as the official opening of Petit Séminaire Saint Léon Kabgayi. A second intake of 40 seminarians arrives on 9 and 10 October.",
     key: true,
     image: "/img/history/old-campus.jpg",
   },

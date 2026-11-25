@@ -44,7 +44,7 @@ export function HomeHero() {
             as="h1"
             delay={150}
             stagger={110}
-            className="display mt-7 text-[clamp(3.6rem,10.5vw,10rem)]"
+            className="display mt-6 text-[clamp(3.2rem,min(9vw,13svh),8.5rem)]"
             lines={[
               "Turerera",
               <span key="u" className="italic text-gold">u Rwanda</span>,
@@ -52,7 +52,7 @@ export function HomeHero() {
             ]}
           />
 
-          <Reveal delay={550} className="mt-8 max-w-xl">
+          <Reveal delay={550} className="mt-6 max-w-xl lg:mt-8">
             <p className="text-lg leading-relaxed text-ivory/75 md:text-xl">
               <span className="text-ivory">We raise the Rwanda of tomorrow.</span> Since 1912, the minor
               seminary of Kabgayi has formed priests, bishops, scientists and leaders through faith,
@@ -60,7 +60,7 @@ export function HomeHero() {
             </p>
           </Reveal>
 
-          <Reveal delay={700} className="mt-10 flex flex-wrap items-center gap-4">
+          <Reveal delay={700} className="mt-8 flex flex-wrap items-center gap-4 lg:mt-10">
             <Link
               href="/history"
               className="group inline-flex items-center gap-3 rounded-full bg-gold py-3.5 pr-3.5 pl-7 font-semibold text-ink transition hover:bg-ivory"
@@ -77,14 +77,14 @@ export function HomeHero() {
         </div>
 
         {/* 3D crest */}
-        <div className="pointer-events-auto relative mx-auto mt-10 aspect-square w-full max-w-[560px] lg:col-span-5 lg:mt-0">
+        <div className="pointer-events-auto relative mx-auto mt-10 aspect-square w-full max-w-[min(560px,64svh)] lg:col-span-5 lg:mt-0">
           <div className="absolute inset-[12%] rounded-full bg-gold/10 blur-3xl" />
           <CrestScene className="absolute inset-0" />
           <noscript>
             <Crest className="absolute inset-[20%]" />
           </noscript>
           <div className="pointer-events-none absolute bottom-2 left-1/2 -translate-x-1/2 text-center">
-            <span className="eyebrow text-ivory/40">Seminaire · Saint Léon</span>
+            <span className="eyebrow text-ivory/40">Est. 1912</span>
           </div>
         </div>
       </div>
