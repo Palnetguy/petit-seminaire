@@ -31,7 +31,10 @@ export function Reveal({
           if (once) io.disconnect();
         } else if (!once) el.classList.remove("is-in");
       },
-      { threshold: 0.15, rootMargin: "0px 0px -8% 0px" },
+      // threshold 0: reveal as soon as any part enters the screen. A percentage
+      // threshold never fires for elements taller than the screen (e.g. the
+      // gallery on a phone), which left them invisible.
+      { threshold: 0, rootMargin: "0px 0px -10% 0px" },
     );
     io.observe(el);
     return () => io.disconnect();

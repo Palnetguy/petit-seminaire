@@ -1,0 +1,45 @@
+{
+  "leaderName": "",
+  "leaderRole": "Team leader, Student Developers",
+  "leaderPhoto": "",
+  "pullQuote": "He would say he did not do enough. To us, he did everything he could.",
+  "message": "When Mr. Martin Tusingwire arrived at our school, none of us had written a single line of code. We used computers, but we had never imagined building anything with them. There was no programming class here. He started one.\n\nHe never stood in front of us only as a teacher. He became a mentor. He stayed after lessons, answered the same questions again and again, and believed we could make something real long before we believed it ourselves. He gave us his experience, his patience and many hours that he could have spent on other things. When we were stuck, and we were stuck often, he did not hand us the answer. He asked us questions until we found it.\n\nThen he gave us a challenge: build a website for our own seminary. Those of us who were interested formed a team. We argued about colours, rewrote the same page many times, broke things and fixed them again. We learned that making something simple is hard, that a team is stronger than any one person, and that finishing matters as much as starting.\n\nWhat you see here grew from that first project. It was not perfect, and neither were we, but every page carries something we learned together.\n\nMr. Martin, thank you for opening a door none of us knew was there. To my teammates: thank you for your ideas, your patience and the long hours. I could not have asked for a better team. And to Petit Séminaire Saint Léon Kabgayi, thank you for giving us the trust and the space to learn, to be creative and to make something of our own.\n\nWe are only the first. We hope many more students will walk through the door that was opened for us.",
+  "signOff": "Murakoze cyane.",
+  "mentorName": "Mr. Martin Tusingwire",
+  "mentorTitle": "ICT Teacher & Patron of the student developers",
+  "mentorPhoto": "/img/staff/tusingwire.jpg",
+  "mentorText": "When he joined the seminary there was no programming class. He began one, teaching web development to students who had never written code, and guiding them as a mentor rather than only a teacher.",
+  "story": [
+    {
+      "title": "No code yet",
+      "text": "Computers were in the lab, but nobody at the seminary was learning to program."
+    },
+    {
+      "title": "A mentor arrives",
+      "text": "Mr. Martin starts teaching HTML, CSS and JavaScript, and stays after class for anyone who wants to go further."
+    },
+    {
+      "title": "A class project",
+      "text": "The interested students form a team: wireframes, colours, the history text and six hand-coded pages."
+    },
+    {
+      "title": "This website",
+      "text": "Their first version grows into the site you are browsing now, keeping their colours, motto and story."
+    }
+  ],
+  "members": [
+    { "name": "Armand", "photo": "/img/students/armand.jpg" },
+    { "name": "Arsène", "photo": "/img/students/arsene.jpg" },
+    { "name": "Blaise", "photo": "/img/students/blaise.jpg" },
+    { "name": "Bonheur", "photo": "/img/students/bonheur.jpg" },
+    { "name": "Darcy", "photo": "/img/students/darcy.jpg" },
+    { "name": "Idesbard", "photo": "/img/students/idesbard.jpg" },
+    { "name": "Igikwiye", "photo": "/img/students/igikwiye.jpg" },
+    { "name": "Jay B", "photo": "/img/students/jayb.jpg" },
+    { "name": "Lavigne", "photo": "/img/students/lavigne.jpg" },
+    { "name": "Mike", "photo": "/img/students/mike.jpg" },
+    { "name": "Patient", "photo": "/img/students/patient.jpg" },
+    { "name": "Rwakazina", "photo": "/img/students/rwakazina.jpg" },
+    { "name": "Xavier", "photo": "/img/students/xavier.jpg" }
+  ]
+}

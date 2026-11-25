@@ -9,7 +9,8 @@ import programs from "../../../../content/programs.json";
 import rectors from "../../../../content/rectors.json";
 import settings from "../../../../content/settings.json";
 import staff from "../../../../content/staff.json";
+import team from "../../../../content/team.json";
 
 export const bundled: Record<string, unknown> = {
-  about, events, gallery, _meta: meta, milestones, news, programs, rectors, settings, staff,
+  about, events, gallery, _meta: meta, milestones, news, programs, rectors, settings, staff, team,
 };

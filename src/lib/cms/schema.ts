@@ -261,6 +261,43 @@ export const collections: Collection[] = [
     ],
   },
   {
+    key: "team",
+    kind: "single",
+    label: "Student developers",
+    rw: "Itsinda",
+    description: "The “Built by students” page: the team, the team leader's word and the mentor.",
+    icon: "💻",
+    publicPath: "/built-by-students",
+    fields: [
+      {
+        name: "_leader", label: "A word from the team leader", type: "group", fields: [
+          { name: "leaderName", label: "Team leader's name", type: "text", help: "Leave empty to sign as “Team leader”.", max: 80 },
+          { name: "leaderRole", label: "Signature line", type: "text", max: 100 },
+          { name: "leaderPhoto", label: "Team leader's photo", type: "image", folder: "team" },
+          { name: "pullQuote", label: "Highlighted sentence", type: "text", help: "Shown large in gold beside the letter.", max: 200 },
+          { name: "message", label: "The letter", type: "textarea", rows: 14, required: true, help: "Leave an empty line between paragraphs.", max: 4000 },
+          { name: "signOff", label: "Closing words", type: "text", max: 80 },
+        ],
+      },
+      {
+        name: "_mentor", label: "The mentor", type: "group", fields: [
+          { name: "mentorName", label: "Name", type: "text", required: true, max: 80 },
+          { name: "mentorTitle", label: "Title", type: "text", max: 120 },
+          { name: "mentorPhoto", label: "Photo", type: "image", folder: "team" },
+          { name: "mentorText", label: "Short description", type: "textarea", rows: 3, max: 500 },
+        ],
+      },
+      { name: "story", label: "How it began (steps)", type: "list", itemLabel: "step", titleField: "title", fields: [
+        { name: "title", label: "Step", type: "text", required: true, max: 60 },
+        { name: "text", label: "Text", type: "textarea", rows: 2, max: 300 },
+      ] },
+      { name: "members", label: "Team members", type: "list", itemLabel: "member", titleField: "name", fields: [
+        { name: "name", label: "Name", type: "text", required: true, max: 60 },
+        { name: "photo", label: "Photo", type: "image", folder: "team" },
+      ] },
+    ],
+  },
+  {
     key: "rectors",
     kind: "single",
     label: "Rectors",
@@ -314,4 +351,10 @@ export type Programs = {
 };
 export type Rector = { name: string; period: string; note: string };
 export type Rectors = { whiteFathers: Rector[]; diocesan: Rector[] };
+export type Team = {
+  leaderName: string; leaderRole: string; leaderPhoto: string; pullQuote: string; message: string; signOff: string;
+  mentorName: string; mentorTitle: string; mentorPhoto: string; mentorText: string;
+  story: { title: string; text: string }[];
+  members: { name: string; photo: string }[];
+};
 export type Meta = Record<string, { updatedAt: string; updatedBy: string }>;
