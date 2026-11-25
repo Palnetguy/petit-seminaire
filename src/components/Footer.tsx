@@ -1,147 +1,97 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import {
-  MapPinIcon,
-  PhoneIcon,
-  EnvelopeIcon,
-  AcademicCapIcon,
-  HeartIcon,
-} from "@heroicons/react/24/outline";
+import Link from "next/link";
+import { nav, school } from "@/content/school";
+import { Crest } from "./Crest";
+import { ImigongoBand } from "./Imigongo";
+import { YearsSince } from "./YearsSince";
 
-const Footer = () => {
-  const currentYear = new Date().getFullYear();
-
+export function Footer() {
   return (
-    <footer className="bg-gray-900 text-white">
-      <div className="container-custom section-padding">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* School Info */}
-          <div className="lg:col-span-2">
-            <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center">
-                <AcademicCapIcon className="w-7 h-7 text-white" />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold">Petit Séminaire St Léon</h3>
-                <p className="text-gray-400">Kabgayi, Muhanga - Rwanda</p>
-              </div>
-            </div>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              A Catholic educational institution dedicated to forming young
-              minds in faith, knowledge, and character. We nurture future
-              leaders grounded in Christian values and academic excellence.
+    <footer className="relative overflow-hidden bg-ink text-ivory">
+      <ImigongoBand variant="gold" height={22} />
+      <div className="mx-auto max-w-[1320px] px-5 pt-20 pb-10 md:px-10">
+        <div className="grid gap-14 md:grid-cols-12">
+          <div className="md:col-span-6">
+            <p className="eyebrow text-gold">Intego yacu · Our motto</p>
+            <p className="display mt-5 text-[clamp(2.6rem,7vw,6.5rem)] text-ivory">
+              Turerera
+              <br />
+              <em className="text-gold">u Rwanda</em> rwejo.
             </p>
-            <div className="flex items-center space-x-2 text-gold-400">
-              <HeartIcon className="w-5 h-5" />
-              <span className="text-sm font-medium">
-                Guided by Faith, Inspired by Learning
-              </span>
+            <p className="mt-6 max-w-md text-ivory/60">{school.mottoLongEn}</p>
+          </div>
+
+          <div className="grid grid-cols-2 gap-10 md:col-span-6 md:grid-cols-3">
+            <div>
+              <p className="eyebrow mb-5 text-ivory/40">Explore</p>
+              <ul className="space-y-2.5">
+                {nav.map((n) => (
+                  <li key={n.href}>
+                    <Link href={n.href} className="link-gold text-ivory/80 hover:text-ivory">
+                      {n.label}
+                    </Link>
+                  </li>
+                ))}
+                <li>
+                  <Link href="/built-by-students" className="link-gold text-gold">
+                    Built by students
+                  </Link>
+                </li>
+              </ul>
             </div>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
-            <ul className="space-y-3">
-              <li>
-                <Link
-                  to="/about"
-                  className="text-gray-300 hover:text-gold-400 transition-colors"
-                >
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/history"
-                  className="text-gray-300 hover:text-gold-400 transition-colors"
-                >
-                  Our History
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/academics"
-                  className="text-gray-300 hover:text-gold-400 transition-colors"
-                >
-                  Academics
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/events"
-                  className="text-gray-300 hover:text-gold-400 transition-colors"
-                >
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/contact"
-                  className="text-gray-300 hover:text-gold-400 transition-colors"
-                >
-                  Contact Us
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact Info */}
-          <div>
-            <h4 className="text-lg font-semibold mb-6">Contact Information</h4>
-            <div className="space-y-4">
-              <div className="flex items-start space-x-3">
-                <MapPinIcon className="w-5 h-5 text-gold-400 mt-1" />
-                <div>
-                  <p className="text-gray-300">Kabgayi, Muhanga</p>
-                  <p className="text-gray-300">Southern Province, Rwanda</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-3">
-                <PhoneIcon className="w-5 h-5 text-gold-400" />
-                <p className="text-gray-300">+250 788 123 456</p>
-              </div>
-              <div className="flex items-center space-x-3">
-                <EnvelopeIcon className="w-5 h-5 text-gold-400" />
-                <p className="text-gray-300">info@petitseminaire-kabgayi.rw</p>
-              </div>
+            <div>
+              <p className="eyebrow mb-5 text-ivory/40">Visit</p>
+              <address className="space-y-1 not-italic text-ivory/80">
+                <p>Saint Léon Kabgayi</p>
+                <p>Nyamabuye, Muhanga</p>
+                <p>{school.province}</p>
+              </address>
+              <a
+                href={`https://www.google.com/maps?q=${school.map.lat},${school.map.lng}`}
+                target="_blank"
+                rel="noreferrer"
+                className="link-gold mt-4 inline-block text-gold"
+              >
+                Directions ↗
+              </a>
+            </div>
+            <div className="col-span-2 md:col-span-1">
+              <p className="eyebrow mb-5 text-ivory/40">Contact</p>
+              <a href={`tel:${school.phone.replace(/\s/g, "")}`} className="link-gold block text-ivory/80">
+                {school.phone}
+              </a>
+              <a href={`mailto:${school.email}`} className="link-gold mt-1 block text-ivory/80">
+                {school.email}
+              </a>
+              <Link
+                href="/contact#visit"
+                className="mt-6 inline-flex items-center gap-2 rounded-full bg-gold px-5 py-3 text-sm font-semibold text-ink transition hover:bg-ivory"
+              >
+                Admissions <span aria-hidden>→</span>
+              </Link>
             </div>
           </div>
         </div>
 
-        {/* Catholic Mission Statement */}
-        <div className="border-t border-gray-800 mt-12 pt-8">
-          <div className="text-center">
-            <p className="text-gold-400 font-medium mb-2">
-              "In the name of the Father, and of the Son, and of the Holy
-              Spirit"
-            </p>
-            <p className="text-gray-400 text-sm max-w-2xl mx-auto">
-              As a Catholic institution, we are committed to the spiritual,
-              intellectual, and moral development of our students, following the
-              teachings of Jesus Christ and the traditions of the Catholic
-              Church.
-            </p>
-          </div>
+        {/* Big wordmark */}
+        <div className="relative mt-24 flex items-end gap-6 border-t border-white/10 pt-10">
+          <Crest className="h-24 w-auto shrink-0 md:h-32" />
+          <p className="display select-none text-[clamp(3rem,13vw,13rem)] leading-[0.8] text-ivory/[0.06]">
+            Saint Léon
+          </p>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="border-t border-gray-800 mt-8 pt-6">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} Petit Séminaire St Léon Kabgayi. All rights
-              reserved.
-            </p>
-            <div className="flex items-center space-x-4 text-sm text-gray-400">
-              <span>Built with</span>
-              <HeartIcon className="w-4 h-4 text-red-500" />
-              <span>for Catholic Education</span>
-            </div>
-          </div>
+        <div className="mt-10 flex flex-col justify-between gap-4 text-xs text-ivory/40 md:flex-row">
+          <p>
+            © {school.name}. Forming Rwanda for <YearsSince /> years.
+          </p>
+          <p>
+            Grown from a student project ·{" "}
+            <Link href="/built-by-students" className="link-gold text-ivory/70">
+              meet the team
+            </Link>
+          </p>
         </div>
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}
