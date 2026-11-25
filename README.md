@@ -1,73 +1,41 @@
-# React + TypeScript + Vite
+# Petit Séminaire Saint Léon Kabgayi: website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The website of Rwanda's oldest minor seminary (founded 1912). It grew out of a project by the
+seminary's own students: their pages, wireframes and photos are kept locally in `LINKED/` (not committed: 364 MB).
 
-Currently, two official plugins are available:
+## Run it
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # production build (all pages are static)
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Where things live
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| What | Where |
+| --- | --- |
+| All school text (motto, staff, programs, news, gallery list) | `src/content/school.ts` |
+| History timeline and rectors | `src/content/history.ts` |
+| Pages (one folder per URL) | `src/app/<page>/page.tsx` |
+| Shared pieces (header, footer, crest, reveal animations) | `src/components/` |
+| 3D scenes (Three.js) | `src/components/three/` |
+| Colours, fonts, global styles | `src/app/globals.css` |
+| Photos | `public/img/` |
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**To change text, edit the `content/` files.** You should not need to touch any layout code.
+
+## The 3D scenes
+
+- `CrestScene`: the school crest as an extruded 3D shield that follows the cursor.
+- `RegisterField`: 5,154 particles, one per name in the seminary register. As you scroll, they move
+  from a cloud into a ledger and then into a cross. Nº 81 (Mgr Bigirumwami) glows gold.
+- `ImigongoWall`: a field of pyramids in the colours of *imigongo* (Rwandan geometric art) that ripples
+  around the cursor.
+
+Each scene only renders while it is on screen (`CanvasShell.tsx`), so phones stay cool.
+
+## To confirm with the administration
+
+Search for `TODO` in `src/content/school.ts`: the official email address, the A-Level combinations
+offered today, and rectors after 2013.
