@@ -1,0 +1,158 @@
+[
+  {
+    "id": "chapel-exterior",
+    "src": "/img/campus/chapel-exterior.jpg",
+    "alt": "The seminary chapel under a blue sky",
+    "category": "Campus"
+  },
+  {
+    "id": "chapel-interior",
+    "src": "/img/campus/chapel-interior.jpg",
+    "alt": "The painted sanctuary of the chapel",
+    "category": "Faith"
+  },
+  {
+    "id": "brass-band",
+    "src": "/img/life/brass-band.jpg",
+    "alt": "The seminary brass band in blue uniform",
+    "category": "Student life"
+  },
+  {
+    "id": "bishop-procession",
+    "src": "/img/faith/bishop-procession.jpg",
+    "alt": "The Bishop arrives for a celebration",
+    "category": "Events"
+  },
+  {
+    "id": "classroom",
+    "src": "/img/academics/classroom.jpg",
+    "alt": "Students writing in class",
+    "category": "Academics"
+  },
+  {
+    "id": "main-building",
+    "src": "/img/campus/main-building.jpg",
+    "alt": "The main building and courtyard",
+    "category": "Campus"
+  },
+  {
+    "id": "chapel-full",
+    "src": "/img/faith/chapel-full.jpg",
+    "alt": "Students gathered in the chapel",
+    "category": "Faith"
+  },
+  {
+    "id": "volleyball-team",
+    "src": "/img/life/volleyball-team.jpg",
+    "alt": "The volleyball team",
+    "category": "Student life"
+  },
+  {
+    "id": "science-fair",
+    "src": "/img/life/science-fair.jpg",
+    "alt": "Science fair presentations",
+    "category": "Academics"
+  },
+  {
+    "id": "aerial-courtyard",
+    "src": "/img/campus/aerial-courtyard.jpg",
+    "alt": "Campus seen from above",
+    "category": "Campus"
+  },
+  {
+    "id": "mass-students",
+    "src": "/img/faith/mass-students.jpg",
+    "alt": "Mass with the students",
+    "category": "Faith"
+  },
+  {
+    "id": "basketball",
+    "src": "/img/life/basketball.jpg",
+    "alt": "Basketball on the central court",
+    "category": "Student life"
+  },
+  {
+    "id": "assembly-hall",
+    "src": "/img/life/assembly-hall.jpg",
+    "alt": "The whole school in front of the hall",
+    "category": "Events"
+  },
+  {
+    "id": "computer-lab",
+    "src": "/img/academics/computer-lab.jpg",
+    "alt": "Students in the computer lab",
+    "category": "Academics"
+  },
+  {
+    "id": "gardens",
+    "src": "/img/campus/gardens.jpg",
+    "alt": "Gardens and pathways",
+    "category": "Campus"
+  },
+  {
+    "id": "brass-band-field",
+    "src": "/img/life/brass-band-field.jpg",
+    "alt": "Brass band on the field",
+    "category": "Events"
+  },
+  {
+    "id": "chapel-prayer",
+    "src": "/img/faith/chapel-prayer.jpg",
+    "alt": "Prayer in the chapel",
+    "category": "Faith"
+  },
+  {
+    "id": "service",
+    "src": "/img/life/service.jpg",
+    "alt": "Students on a service day",
+    "category": "Student life"
+  },
+  {
+    "id": "grounds",
+    "src": "/img/campus/grounds.jpg",
+    "alt": "The grounds after rain",
+    "category": "Campus"
+  },
+  {
+    "id": "exam",
+    "src": "/img/academics/exam.jpg",
+    "alt": "Students sitting an exam",
+    "category": "Academics"
+  },
+  {
+    "id": "teams",
+    "src": "/img/life/teams.jpg",
+    "alt": "School teams on the court",
+    "category": "Student life"
+  },
+  {
+    "id": "family-day",
+    "src": "/img/events/family-day.jpg",
+    "alt": "Family visit day",
+    "category": "Events"
+  },
+  {
+    "id": "gathering",
+    "src": "/img/life/gathering.jpg",
+    "alt": "Students gathered outdoors",
+    "category": "Events"
+  },
+  {
+    "id": "main-building-2",
+    "src": "/img/campus/main-building-2.jpg",
+    "alt": "Palm trees along the main building",
+    "category": "Campus"
+  },
+  {
+    "id": "study",
+    "src": "/img/academics/study.jpg",
+    "alt": "Quiet study",
+    "category": "Academics"
+  },
+  {
+    "id": "brass-march",
+    "src": "/img/life/brass-march.jpg",
+    "alt": "Brass band marching",
+    "category": "Student life"
+  }
+]

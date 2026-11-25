@@ -1,0 +1,20 @@
+[
+  {
+    "id": "open-day",
+    "title": "Parents' visiting day",
+    "date": "2026-12-06",
+    "time": "09:00",
+    "place": "Seminary courtyard",
+    "text": "Families are welcome to visit their sons, meet teachers and attend Mass together.",
+    "published": true
+  },
+  {
+    "id": "christmas-mass",
+    "title": "Christmas celebration and Mass",
+    "date": "2026-12-20",
+    "time": "10:00",
+    "place": "Seminary chapel",
+    "text": "The seminary community celebrates Christmas before the holidays.",
+    "published": true
+  }
+]

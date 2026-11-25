@@ -1,0 +1,146 @@
+{
+  "whiteFathers": [
+    {
+      "name": "Cunrath",
+      "period": "1912 – 1915",
+      "note": "assisted by Knoll"
+    },
+    {
+      "name": "Buisson",
+      "period": "1915 – 1917",
+      "note": ""
+    },
+    {
+      "name": "Briquet",
+      "period": "1917 – 1919",
+      "note": ""
+    },
+    {
+      "name": "Déprimoz",
+      "period": "1919 – 1930",
+      "note": ""
+    },
+    {
+      "name": "Antoine van Overschelde",
+      "period": "1930 – 1934",
+      "note": ""
+    },
+    {
+      "name": "Lody",
+      "period": "1934 – 1947",
+      "note": ""
+    },
+    {
+      "name": "Martin",
+      "period": "1947 – 1948",
+      "note": "interim"
+    },
+    {
+      "name": "De Schrevel",
+      "period": "1948 – 1951",
+      "note": ""
+    },
+    {
+      "name": "Hartmann",
+      "period": "1951 – 1958",
+      "note": ""
+    },
+    {
+      "name": "Aelvoet",
+      "period": "1958 – 1959",
+      "note": ""
+    }
+  ],
+  "diocesan": [
+    {
+      "name": "Mathias Kamari",
+      "period": "1959",
+      "note": ""
+    },
+    {
+      "name": "Joseph Sibomana",
+      "period": "1960",
+      "note": ""
+    },
+    {
+      "name": "Pierre Claver Nyiringondo",
+      "period": "1961",
+      "note": ""
+    },
+    {
+      "name": "Phocas Nikwigize",
+      "period": "1961 – 1968",
+      "note": ""
+    },
+    {
+      "name": "Jean-Marie Vianney Rusingizandekwe",
+      "period": "1968 – 1977",
+      "note": ""
+    },
+    {
+      "name": "Jan Renis, M.Afr.",
+      "period": "1977 – 1983",
+      "note": "the last White Father rector"
+    },
+    {
+      "name": "Laurent Ndagijimana",
+      "period": "1984 – 1990",
+      "note": ""
+    },
+    {
+      "name": "Silas Ngerero",
+      "period": "1990 – 1992",
+      "note": ""
+    },
+    {
+      "name": "Emmanuel Uwimana",
+      "period": "1992 – 1994",
+      "note": ""
+    },
+    {
+      "name": "Silas Ngerero",
+      "period": "1994 – 1996",
+      "note": ""
+    },
+    {
+      "name": "Vincent Sibomana",
+      "period": "1996 – 1997",
+      "note": ""
+    },
+    {
+      "name": "Evergiste Rukebesha",
+      "period": "1997 – 2000",
+      "note": ""
+    },
+    {
+      "name": "Vincent Kagabo",
+      "period": "2000 – 2002",
+      "note": ""
+    },
+    {
+      "name": "Prudence Bicamumpaka",
+      "period": "2002 – 2006",
+      "note": ""
+    },
+    {
+      "name": "Jean de Dieu Hodari",
+      "period": "2006 – 2008",
+      "note": ""
+    },
+    {
+      "name": "Celse Hakuziyaremye",
+      "period": "2008 – 2011",
+      "note": ""
+    },
+    {
+      "name": "Théotime Gatete",
+      "period": "2011 – 2013",
+      "note": ""
+    },
+    {
+      "name": "Innocent Muvunyi",
+      "period": "Present",
+      "note": ""
+    }
+  ]
+}

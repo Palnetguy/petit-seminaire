@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { RegisterField } from "@/components/three";
+import { withSchoolName } from "@/components/SchoolName";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -69,7 +70,7 @@ export function RegisterSection() {
                   <p className="font-mono text-sm text-gold">{c.k}</p>
                   <p className="display mt-2 text-[clamp(2.4rem,6vw,5.5rem)]">{c.title}</p>
                 </div>
-                <p className="max-w-md text-ivory/70 md:col-span-5 md:justify-self-end">{c.text}</p>
+                <p className="max-w-md text-ivory/70 md:col-span-5 md:justify-self-end">{withSchoolName(c.text)}</p>
               </div>
             ))}
           </div>

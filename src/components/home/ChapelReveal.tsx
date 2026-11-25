@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { SchoolName } from "@/components/SchoolName";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -78,7 +79,7 @@ export function ChapelReveal() {
             <em className="text-gold">Still full every day.</em>
           </p>
           <p className="max-w-md text-ivory/80 md:col-span-5 md:justify-self-end">
-            Raised as the seminary celebrated its first 25 years, the chapel is the heart of Petit Séminaire Saint Léon Kabgayi:
+            Raised as the seminary celebrated its first 25 years, the chapel is the heart of <SchoolName />:
             daily Mass, sung liturgy, and the quiet where vocations are discerned.
           </p>
         </div>

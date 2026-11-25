@@ -1,0 +1,96 @@
+{
+  "levels": [
+    {
+      "code": "O",
+      "title": "Ordinary Level",
+      "years": "Senior 1 – Senior 3",
+      "text": "A broad foundation under Rwanda's competence-based curriculum: mathematics, sciences, languages (Kinyarwanda, English, French), history, geography, ICT, religion and music."
+    },
+    {
+      "code": "A",
+      "title": "Advanced Level",
+      "years": "Senior 4 – Senior 6",
+      "text": "Specialised science combinations, building on the seminary's long tradition in Mathematics, Chemistry and Biology, examined by the National Examination and School Inspection Authority."
+    }
+  ],
+  "combinations": [
+    {
+      "code": "MCB",
+      "name": "Mathematics · Chemistry · Biology",
+      "note": "The seminary's historic science option"
+    },
+    {
+      "code": "MPC",
+      "name": "Mathematics · Physics · Computer Science",
+      "note": "Physics, mathematics and ICT taught at A-Level"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Sciences",
+      "items": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology"
+      ],
+      "color": "Lapis blue"
+    },
+    {
+      "name": "Languages",
+      "items": [
+        "Kinyarwanda",
+        "English",
+        "French",
+        "Latin heritage"
+      ],
+      "color": "Chapel brick"
+    },
+    {
+      "name": "Humanities",
+      "items": [
+        "History",
+        "Geography",
+        "General Studies",
+        "Religion"
+      ],
+      "color": "Hill green"
+    },
+    {
+      "name": "Technology",
+      "items": [
+        "ICT",
+        "Computer lab",
+        "Digital skills"
+      ],
+      "color": "Navy"
+    }
+  ],
+  "coCurricular": [
+    {
+      "title": "Brass band",
+      "text": "The seminary fanfare leads processions, feasts and national days in full blue uniform.",
+      "image": "/img/life/brass-band.jpg"
+    },
+    {
+      "title": "Sport",
+      "text": "Football, volleyball, basketball, handball and karate, on courts at the heart of campus.",
+      "image": "/img/life/volleyball-team.jpg"
+    },
+    {
+      "title": "Choir & liturgy",
+      "text": "Sung Mass in the chapel; the seminary hymn and the music of the Church.",
+      "image": "/img/faith/chapel-full.jpg"
+    },
+    {
+      "title": "Science & clubs",
+      "text": "Science fairs, debating, Xaveri youth movement and student-led clubs.",
+      "image": "/img/life/science-fair.jpg"
+    },
+    {
+      "title": "Service",
+      "text": "Environmental work, outreach and service to the people of Muhanga.",
+      "image": "/img/life/service.jpg"
+    }
+  ]
+}

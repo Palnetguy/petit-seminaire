@@ -4,6 +4,7 @@ import Link from "next/link";
 import { MaskLines, Reveal } from "@/components/Reveal";
 import { ImigongoBand } from "@/components/Imigongo";
 import { studentDevelopers } from "@/content/school";
+import { SchoolName } from "@/components/SchoolName";
 
 export const metadata: Metadata = {
   title: "Built by students",
@@ -54,7 +55,7 @@ export default function StudentsPage() {
           />
           <Reveal delay={300} className="mt-8 max-w-2xl text-lg text-ivory/70">
             <p>
-              A team of seminarians from Petit Séminaire Saint Léon Kabgayi designed the first version: wireframes, colours, the history text, and six
+              A team of seminarians from <SchoolName /> designed the first version: wireframes, colours, the history text, and six
               hand-coded pages. This site keeps their ideas and shows how far they can be taken. Every great product
               starts as a first draft.
             </p>

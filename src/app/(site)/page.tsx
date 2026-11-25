@@ -7,7 +7,9 @@ import { MaskLines, Reveal } from "@/components/Reveal";
 import { Counter } from "@/components/Counter";
 import { ImigongoBand } from "@/components/Imigongo";
 import { ImigongoWall } from "@/components/three";
-import { gallery, news, pillars, programs, stats } from "@/content/school";
+import { events, gallery, news, pillars, programs, stats } from "@/content/school";
+import { UpcomingEvents } from "@/components/home/UpcomingEvents";
+import { SchoolName } from "@/components/SchoolName";
 
 export default function Home() {
   return (
@@ -30,7 +32,7 @@ export default function Home() {
           <div className="mt-10 grid gap-10 md:grid-cols-12">
             <Reveal delay={200} className="text-lg leading-relaxed text-charcoal/75 md:col-span-5 md:col-start-7">
               <p>
-                Founded by Bishop Jean-Joseph Hirth of the Missionaries of Africa, Petit Séminaire Saint Léon Kabgayi opened its doors at
+                Founded by Bishop Jean-Joseph Hirth of the Missionaries of Africa, <SchoolName /> opened its doors at
                 Kabgayi on 4 October 1913. Until 1953 it was the only minor seminary in the country. Every
                 other seminary in Rwanda grew from its model.
               </p>
@@ -74,7 +76,7 @@ export default function Home() {
             </div>
             <Reveal delay={200} className="text-charcoal/70 md:col-span-4 md:col-start-9">
               <p>
-                A seminary forms the whole person. At Petit Séminaire Saint Léon Kabgayi, prayer, study, character and service are not
+                A seminary forms the whole person. At <SchoolName />, prayer, study, character and service are not
                 separate subjects. They are one way of life.
               </p>
             </Reveal>
@@ -163,7 +165,7 @@ export default function Home() {
                 <span className="lozenge text-brick" />
                 <span className="eyebrow text-muted">Amakuru · Chronicle</span>
               </Reveal>
-              <MaskLines className="display mt-6 text-[clamp(2.6rem,5.6vw,5rem)] text-ink" lines={["Life at Petit Séminaire", <em key="k" className="text-brick">Saint Léon Kabgayi</em>]} />
+              <MaskLines className="display mt-6 text-[clamp(2.6rem,5.6vw,5rem)] text-ink" lines={[<span key="l">Life at <SchoolName>Petit Séminaire</SchoolName></span>, <em key="k" className="text-brick"><SchoolName>Saint Léon Kabgayi</SchoolName></em>]} />
             </div>
             <Link href="/gallery" className="link-gold font-semibold text-brick">View the gallery →</Link>
           </div>
@@ -185,6 +187,7 @@ export default function Home() {
               </Reveal>
             ))}
           </div>
+          <UpcomingEvents events={events} />
         </div>
       </section>
 
