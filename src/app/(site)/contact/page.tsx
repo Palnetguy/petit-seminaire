@@ -3,6 +3,7 @@ import { PageHero } from "@/components/PageHero";
 import { MaskLines, Reveal } from "@/components/Reveal";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { school } from "@/content/school";
+import { SchoolName } from "@/components/SchoolName";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -31,13 +32,10 @@ export default function ContactPage() {
               <Reveal delay={100}>
                 <p className="eyebrow text-brick">Address</p>
                 <p className="mt-3 text-lg text-ink">
-                  Petit Séminaire Saint Léon Kabgayi
-                  <br />
-                  Kabgayi, Nyamabuye Sector
-                  <br />
-                  Muhanga District
-                  <br />
-                  {school.province}
+                  <SchoolName />
+                  {school.addressLines.map((l) => (
+                    <span key={l} className="block">{l}</span>
+                  ))}
                 </p>
               </Reveal>
               <Reveal delay={180}>

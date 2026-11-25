@@ -1,0 +1,49 @@
+{
+  "mission": {
+    "short": "To educate and form young people intellectually, morally, spiritually and socially through faith and reason.",
+    "long": "We provide quality Catholic education that promotes academic excellence, spiritual growth and character formation. We create a safe and supportive environment where every student is encouraged to discover and develop their God-given talents. Through effective teaching, faith formation and community engagement, we prepare learners to become responsible citizens and lifelong learners who serve others, pursue truth and contribute positively to society."
+  },
+  "vision": {
+    "short": "To be a leading Catholic institution that shapes learners into ethical leaders and agents of positive change.",
+    "long": "We nurture young people who are academically competent, spiritually grounded and socially responsible. We envision graduates who become leaders of integrity, capable of transforming their communities through knowledge, faith and service. By fostering innovation, critical thinking and strong moral principles, we prepare students to meet the challenges of a changing world."
+  },
+  "values": {
+    "short": "Faith, integrity, excellence, discipline, respect, solidarity and service.",
+    "long": "Our core values are rooted in the Gospel and guide everything we do. We uphold integrity, respect, honesty, responsibility and excellence in learning and behaviour. We also encourage compassion, humility and service to others, so that students learn to make good choices, respect human dignity and help build a peaceful and just world."
+  },
+  "community": {
+    "short": "A family of learners, educators and parents working together to build a better future.",
+    "long": "Our school community is built on faith, respect and unity. Students, teachers, parents and staff come together in an environment where everyone is valued and encouraged to grow. As a Catholic community we promote service, kindness and care for one another, a family spirit that reflects Christ's love."
+  },
+  "valueWords": [
+    "Faith",
+    "Integrity",
+    "Excellence",
+    "Discipline",
+    "Respect",
+    "Solidarity",
+    "Service"
+  ],
+  "whyUs": [
+    {
+      "title": "Quality Catholic education",
+      "text": "Over a century of forming minds and consciences."
+    },
+    {
+      "title": "Dedicated, experienced staff",
+      "text": "Priests and lay teachers who live alongside the students."
+    },
+    {
+      "title": "Well-rounded programs",
+      "text": "Sciences, languages, music, sport and service."
+    },
+    {
+      "title": "Safe, supportive campus",
+      "text": "A boarding community with structure and care."
+    },
+    {
+      "title": "Leadership and service",
+      "text": "Alumni who serve the Church and the nation."
+    }
+  ]
+}

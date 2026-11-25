@@ -1,0 +1,32 @@
+[
+  {
+    "id": "science-fair-students-present-their-proj",
+    "date": "2026-05-20",
+    "title": "Science fair: students present their projects to the Bishop",
+    "rw": "Amarushanwa y'Ubwenge",
+    "text": "Seminarians presented models and experiments to Mgr. the Bishop of Kabgayi and visiting guests.",
+    "image": "/img/life/science-fair.jpg",
+    "tag": "Academics",
+    "published": true
+  },
+  {
+    "id": "a-full-chapel-for-the-opening-mass-of-th",
+    "date": "2026-05-15",
+    "title": "A full chapel for the opening Mass of the term",
+    "rw": "Urusengero rw'abanyeshuri",
+    "text": "The whole seminary gathered in the chapel to open the new term in prayer.",
+    "image": "/img/faith/chapel-full.jpg",
+    "tag": "Faith",
+    "published": true
+  },
+  {
+    "id": "volleyball-the-seminary-team-on-court",
+    "date": "2026-05-05",
+    "title": "Volleyball: the seminary team on court",
+    "rw": "Irushanwa rya Volleyball",
+    "text": "Our volleyball team competed against neighbouring schools in front of a home crowd.",
+    "image": "/img/life/volleyball-team.jpg",
+    "tag": "Sport",
+    "published": true
+  }
+]

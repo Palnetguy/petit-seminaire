@@ -42,3 +42,4 @@ next-env.d.ts
 
 # students' original project (364 MB of source files, kept locally, not in git)
 /LINKED
+!.env.example

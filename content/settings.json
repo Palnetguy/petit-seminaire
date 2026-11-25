@@ -1,0 +1,71 @@
+{
+  "name": "Petit Séminaire Saint Léon Kabgayi",
+  "kinyarwandaName": "Ishuri rya Petit Séminaire Saint Léon Kabgayi",
+  "motto": "Turerera u Rwanda rwejo",
+  "mottoEn": "We raise the Rwanda of tomorrow",
+  "mottoLong": "Twita ku burezi bufite ireme, tugamurera umwana w'umunyarwanda ufite ubumenyi, indangagaciro n'ikinyabupfura.",
+  "mottoLongEn": "We are committed to quality education, raising a Rwandan child with knowledge, strong values and good character.",
+  "founded": 1912,
+  "foundedFull": "22 December 1912",
+  "addressLines": [
+    "Kabgayi, Nyamabuye Sector",
+    "Muhanga District",
+    "Southern Province, Rwanda"
+  ],
+  "location": "Kabgayi, Nyamabuye Sector, Muhanga District",
+  "province": "Southern Province, Rwanda",
+  "diocese": "Catholic Diocese of Kabgayi",
+  "phone": "+250 790 696 932",
+  "email": "info@saintleon.rw",
+  "mapLat": -2.097338,
+  "mapLng": 29.754589,
+  "hours": [
+    {
+      "day": "Mon – Fri",
+      "time": "08:00 – 17:00"
+    },
+    {
+      "day": "Saturday",
+      "time": "08:00 – 12:00"
+    },
+    {
+      "day": "Sunday",
+      "time": "Closed to visitors"
+    }
+  ],
+  "stats": [
+    {
+      "value": 1912,
+      "label": "Founded",
+      "note": "22 December, Apostolic Vicariate of Kivu",
+      "prefix": "",
+      "suffix": "",
+      "isYear": true
+    },
+    {
+      "value": 5154,
+      "label": "Names in the register",
+      "note": "Nº 1 Abraham Aholihise → Nº 5,154 (2013)",
+      "prefix": "",
+      "suffix": "+",
+      "isYear": false
+    },
+    {
+      "value": 146,
+      "label": "Priests by the golden jubilee",
+      "note": "including 6 bishops, by 1963",
+      "prefix": "",
+      "suffix": "",
+      "isYear": false
+    },
+    {
+      "value": 81,
+      "label": "Register number of Rwanda's first bishop",
+      "note": "Mgr Aloys Bigirumwami, entered 1914",
+      "prefix": "Nº ",
+      "suffix": "",
+      "isYear": false
+    }
+  ],
+  "registerCount": 5154
+}

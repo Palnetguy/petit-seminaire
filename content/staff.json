@@ -1,0 +1,130 @@
+[
+  {
+    "id": "innocent-muvunyi",
+    "title": "Fr.",
+    "name": "Innocent Muvunyi",
+    "role": "Rector",
+    "group": "Leadership",
+    "image": "/img/staff/muvunyi.jpg"
+  },
+  {
+    "id": "pater-rukundo",
+    "title": "Abbé",
+    "name": "Pater Rukundo",
+    "role": "Dean of Studies",
+    "group": "Leadership",
+    "image": "/img/staff/rukundo.jpg"
+  },
+  {
+    "id": "jean-berchmans-gasasira",
+    "title": "Abbé",
+    "name": "Jean Berchmans Gasasira",
+    "role": "Spiritual Father",
+    "group": "Leadership",
+    "image": "/img/staff/gasasira.jpg"
+  },
+  {
+    "id": "anastase-musabyimana",
+    "title": "Abbé",
+    "name": "Anastase Musabyimana",
+    "role": "Bursar",
+    "group": "Leadership",
+    "image": "/img/staff/musabyimana.jpg"
+  },
+  {
+    "id": "clement-ngirabatware",
+    "title": "",
+    "name": "Clément Ngirabatware",
+    "role": "Chemistry",
+    "group": "Teaching staff",
+    "image": "/img/staff/ngirabatware.jpg"
+  },
+  {
+    "id": "jean-felix-rugango",
+    "title": "",
+    "name": "Jean Félix Rugango",
+    "role": "General Studies",
+    "group": "Teaching staff",
+    "image": "/img/staff/rugango.jpg"
+  },
+  {
+    "id": "pascal-nteziyaremye",
+    "title": "",
+    "name": "Pascal Nteziyaremye",
+    "role": "Biology · O-Level",
+    "group": "Teaching staff",
+    "image": "/img/staff/nteziyaremye.jpg"
+  },
+  {
+    "id": "emmanuel-nyandwi",
+    "title": "",
+    "name": "Emmanuel Nyandwi",
+    "role": "Kinyarwanda",
+    "group": "Teaching staff",
+    "image": "/img/staff/nyandwi.jpg"
+  },
+  {
+    "id": "martin-tusingwire",
+    "title": "",
+    "name": "Martin Tusingwire",
+    "role": "ICT",
+    "group": "Teaching staff",
+    "image": "/img/staff/tusingwire.jpg"
+  },
+  {
+    "id": "clementine-uwinshuti",
+    "title": "",
+    "name": "Clémentine Uwinshuti",
+    "role": "Physics · A-Level",
+    "group": "Teaching staff",
+    "image": "/img/staff/uwinshuti.jpg"
+  },
+  {
+    "id": "jean-damascene-harerimana",
+    "title": "",
+    "name": "Jean Damascène Harerimana",
+    "role": "Physics · O-Level",
+    "group": "Teaching staff",
+    "image": "/img/staff/harerimana.jpg"
+  },
+  {
+    "id": "jean-bosco-niyibizi",
+    "title": "",
+    "name": "Jean Bosco Niyibizi",
+    "role": "Geography & History",
+    "group": "Teaching staff",
+    "image": "/img/staff/niyibizi.jpg"
+  },
+  {
+    "id": "jean-de-dieu",
+    "title": "",
+    "name": "Jean de Dieu",
+    "role": "Music",
+    "group": "Teaching staff",
+    "image": "/img/staff/jean-de-dieu.jpg"
+  },
+  {
+    "id": "isaie-kayihura",
+    "title": "",
+    "name": "Isaïe Kayihura",
+    "role": "Mathematics",
+    "group": "Teaching staff",
+    "image": ""
+  },
+  {
+    "id": "leonard-hanyurwimfura",
+    "title": "",
+    "name": "Léonard Hanyurwimfura",
+    "role": "English",
+    "group": "Teaching staff",
+    "image": "/img/staff/hanyurwimfura.jpg"
+  },
+  {
+    "id": "etienne-karinganire",
+    "title": "",
+    "name": "Étienne Karinganire",
+    "role": "Mathematics",
+    "group": "Teaching staff",
+    "image": ""
+  }
+]

@@ -3,6 +3,7 @@ import { nav, school } from "@/content/school";
 import { Crest } from "./Crest";
 import { ImigongoBand } from "./Imigongo";
 import { YearsSince } from "./YearsSince";
+import { SchoolName, withSchoolName } from "@/components/SchoolName";
 
 export function Footer() {
   return (
@@ -41,10 +42,10 @@ export function Footer() {
             <div>
               <p className="eyebrow mb-5 text-ivory/40">Visit</p>
               <address className="space-y-1 not-italic text-ivory/80">
-                <p>Petit Séminaire Saint Léon Kabgayi</p>
-                <p>Kabgayi, Nyamabuye Sector</p>
-                <p>Muhanga District</p>
-                <p>{school.province}</p>
+                <p><SchoolName /></p>
+                {school.addressLines.map((l) => (
+                  <p key={l}>{l}</p>
+                ))}
               </address>
               <a
                 href={`https://www.google.com/maps?q=${school.map.lat},${school.map.lng}`}
@@ -76,7 +77,7 @@ export function Footer() {
         {/* Big wordmark */}
         <div className="relative mt-24 flex items-end gap-6 border-t border-white/10 pt-10">
           <Crest className="h-24 w-auto shrink-0 md:h-32" />
-          <p className="display select-none text-[clamp(2.2rem,7.4vw,7.6rem)] leading-[0.86] text-ivory/[0.07]">
+          <p translate="no" lang="fr" className="display select-none text-[clamp(2.2rem,7.4vw,7.6rem)] leading-[0.86] text-ivory/[0.07]">
             Petit Séminaire
             <br />
             Saint Léon Kabgayi
@@ -85,7 +86,7 @@ export function Footer() {
 
         <div className="mt-10 flex flex-col justify-between gap-4 text-xs text-ivory/40 md:flex-row">
           <p>
-            © {school.name}. Forming Rwanda for <YearsSince /> years.
+            © {withSchoolName(school.name)}. Forming Rwanda for <YearsSince /> years.
           </p>
           <p>
             Grown from a student project ·{" "}

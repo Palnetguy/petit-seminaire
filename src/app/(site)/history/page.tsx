@@ -5,6 +5,7 @@ import { MaskLines, Reveal } from "@/components/Reveal";
 import { Timeline } from "@/components/history/Timeline";
 import { curriculum, rectors } from "@/content/history";
 import { ImigongoField } from "@/components/Imigongo";
+import { withSchoolName } from "@/components/SchoolName";
 
 export const metadata: Metadata = {
   title: "History",
@@ -57,7 +58,7 @@ export default function HistoryPage() {
                   <p className="eyebrow text-brick">{f.role}</p>
                   <h3 className="display mt-3 text-3xl text-ink md:text-4xl">{f.name}</h3>
                   <p className="font-mono text-sm text-muted">{f.dates}</p>
-                  <p className="mt-4 leading-relaxed text-charcoal/75">{f.text}</p>
+                  <p className="mt-4 leading-relaxed text-charcoal/75">{withSchoolName(f.text)}</p>
                 </div>
               </Reveal>
             ))}

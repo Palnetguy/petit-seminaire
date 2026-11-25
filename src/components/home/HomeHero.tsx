@@ -4,6 +4,7 @@ import { CrestScene } from "@/components/three";
 import { MaskLines, Reveal } from "@/components/Reveal";
 import { school } from "@/content/school";
 import { Crest } from "@/components/Crest";
+import { withSchoolName } from "@/components/SchoolName";
 
 const ticker = [
   "Est. 22 December 1912",
@@ -36,7 +37,7 @@ export function HomeHero() {
         <div className="relative z-10 lg:col-span-7">
           <Reveal className="flex items-center gap-4">
             <span className="lozenge text-gold" />
-            <span className="eyebrow text-[1.05rem]! text-ivory/80">{school.kinyarwandaName}</span>
+            <span className="eyebrow text-[1.05rem]! text-ivory/80">{withSchoolName(school.kinyarwandaName)}</span>
             <span className="hidden h-px w-16 bg-gradient-to-r from-gold/60 to-transparent sm:block" />
           </Reveal>
 
