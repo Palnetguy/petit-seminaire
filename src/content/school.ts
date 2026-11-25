@@ -7,7 +7,7 @@
 
 export const school = {
   name: "Petit Séminaire Saint Léon Kabgayi",
-  shortName: "Saint Léon Kabgayi",
+  shortName: "Petit Séminaire Saint Léon Kabgayi",
   kinyarwandaName: "Ishuri rya Petit Séminaire Saint Léon Kabgayi",
   motto: "Turerera u Rwanda rwejo",
   mottoEn: "We raise the Rwanda of tomorrow",
@@ -17,7 +17,7 @@ export const school = {
     "We are committed to quality education, raising a Rwandan child with knowledge, strong values and good character.",
   founded: 1912,
   foundedFull: "22 December 1912",
-  location: "Kabgayi · Nyamabuye · Muhanga",
+  location: "Kabgayi, Nyamabuye Sector, Muhanga District",
   province: "Southern Province, Rwanda",
   diocese: "Catholic Diocese of Kabgayi",
   phone: "+250 790 696 932",

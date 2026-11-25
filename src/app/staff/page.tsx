@@ -6,7 +6,7 @@ import { leadership, teachers } from "@/content/school";
 
 export const metadata: Metadata = {
   title: "Staff",
-  description: "The priests and teachers who form the students of Saint Léon Kabgayi.",
+  description: "The priests and teachers who form the students of Petit Séminaire Saint Léon Kabgayi.",
 };
 
 export default function StaffPage() {

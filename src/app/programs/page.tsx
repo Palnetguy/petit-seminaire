@@ -7,7 +7,7 @@ import { programs } from "@/content/school";
 
 export const metadata: Metadata = {
   title: "Programs",
-  description: "O-Level and A-Level science education, music, sport and service at Saint Léon Kabgayi.",
+  description: "O-Level and A-Level science education, music, sport and service at Petit Séminaire Saint Léon Kabgayi.",
 };
 
 export default function ProgramsPage() {
@@ -44,19 +44,19 @@ export default function ProgramsPage() {
           </div>
 
           {/* Combinations */}
-          <div className="mt-24 grid gap-12 md:grid-cols-12">
+          <div className="mt-24 grid grid-cols-[minmax(0,1fr)] gap-12 md:grid-cols-12">
             <div className="md:col-span-4">
-              <MaskLines className="display text-[clamp(2.2rem,4.4vw,4rem)] text-ink" lines={["A-Level", <em key="c" className="text-brick">combinations</em>]} />
+              <MaskLines className="display text-[clamp(1.9rem,4.4vw,4rem)] text-ink" lines={["A-Level", <em key="c" className="text-brick">combinations</em>]} />
               <Reveal delay={150} className="mt-6 text-charcoal/70">
                 <p>Building on a tradition that ran from Latin sections to Maths–Physics and Biology–Chemistry, the seminary today focuses on the sciences.</p>
               </Reveal>
             </div>
             <div className="space-y-4 md:col-span-7 md:col-start-6">
               {programs.combinations.map((c, i) => (
-                <Reveal key={c.code} delay={i * 120} className="group flex items-center gap-8 rounded-[24px] border border-ink/10 bg-paper/60 p-7 transition-colors duration-500 hover:bg-gold">
-                  <span className="display w-28 shrink-0 text-5xl text-ink md:text-6xl">{c.code}</span>
-                  <div>
-                    <p className="text-lg font-semibold text-ink">{c.name}</p>
+                <Reveal key={c.code} delay={i * 120} className="group flex items-center gap-4 rounded-[24px] border border-ink/10 bg-paper/60 p-5 transition-colors duration-500 hover:bg-gold sm:gap-8 sm:p-7">
+                  <span className="display w-20 shrink-0 text-4xl text-ink sm:w-28 sm:text-5xl md:text-6xl">{c.code}</span>
+                  <div className="min-w-0">
+                    <p className="font-semibold text-ink sm:text-lg">{c.name}</p>
                     <p className="text-charcoal/60">{c.note}</p>
                   </div>
                   <span className="ml-auto hidden text-2xl text-ink/30 transition-transform duration-500 group-hover:translate-x-1 group-hover:text-ink md:block">→</span>

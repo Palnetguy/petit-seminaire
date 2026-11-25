@@ -98,6 +98,7 @@ body {
   font-variation-settings: "opsz" 144, "SOFT" 30;
   letter-spacing: -0.035em;
   line-height: 0.92;
+  overflow-wrap: break-word;
 }
 .eyebrow {
   /* a register entry: small italic serif, as if written in the seminary ledger */

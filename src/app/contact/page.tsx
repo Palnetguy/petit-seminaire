@@ -33,7 +33,9 @@ export default function ContactPage() {
                 <p className="mt-3 text-lg text-ink">
                   Petit Séminaire Saint Léon Kabgayi
                   <br />
-                  Kabgayi, Nyamabuye, Muhanga
+                  Kabgayi, Nyamabuye Sector
+                  <br />
+                  Muhanga District
                   <br />
                   {school.province}
                 </p>
